@@ -11,4 +11,5 @@ def index():
 
 @app.route('/health')
 def health():
+	print '変更検出テスト'
     return 'Health Check OK!!'
