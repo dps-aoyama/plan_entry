@@ -1,0 +1,104 @@
+/* エリア */
+div.area {
+	width: 1500px;
+	height: 820px;
+	background: #ffffff;
+	margin: 50px 0px 0px 40px;
+	box-shadow: 0 3px 4px 0 #c0c0c0;
+}
+
+/* エリアタイトル */
+div.area-title {
+	width: 1500px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 20px;
+	height: 50px;
+	background: #0D2B26;
+}
+
+label.area-title {
+	color: #ffffff;
+}
+
+/* ロック管理画面_検索条件テーブル */
+table.lock-search-area {
+	width: 910px;
+	margin: 40px 40px 50px 40px;
+}
+
+/* ガス単価管理マスタ画面_検索条件テーブル */
+table.gas-search-area {
+	width: 710px;
+	margin: 40px 40px 50px 40px;
+}
+
+/* 検索結果テーブル */
+table.search-result {
+	visibility: hidden;
+	width: 910px;
+	margin: 40px 40px 30px 40px;
+	border-collapse: collapse;
+	border-color: #c0c0c0;
+	overflow-y: scroll;
+}
+
+
+td.radio-field {
+    text-align: center
+}
+
+label.item-label {
+	font-size: 16px;
+}
+
+select {
+	font-size: 16px;
+	width: 300px;
+}
+
+input.month, label.month {
+	font-size: 16px;
+}
+
+tr.item{
+	height: 60px;
+}
+
+th {
+	color: #ffffff;
+	background: #466665;
+}
+
+/* ロックボタン */
+button.btn {
+	font-size: 16px;
+	width: 150px;
+	color: #000000;
+	border-color: #c0c0c0;
+	display: inline-block;
+	background: #86C2C0;
+	padding: .5em 2em;
+	margin-right: .5em;
+}
+
+button.btn:hover {
+	background-color: #5f9ea0;
+}
+div.lock-btn {
+	margin-left: 600px;
+}
+
+button:disabled {
+	opacity: 0.5;
+}
+
+.selected {
+	background:#c0c0c0;
+}
+
+tr#lock_mes {
+	text-align: center;
+}
+

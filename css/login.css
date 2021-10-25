@@ -1,0 +1,61 @@
+div.system-title {
+	font-size: 40px;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+table {
+	background: #ffffff;
+	width:350px;
+	padding: 10px;
+	margin: 0 auto;
+	border: 1px solid #ffffff;
+	rules: all;
+	box-shadow: 0 3px 4px 0 #c0c0c0;
+}
+
+tr.image {
+	height: 100px;
+	text-align: center;
+}
+
+label, input {
+	font-size: 16px;
+}
+
+td.item-label {
+	height: 50px;
+	margin-left: 100px; 
+}
+
+input.item-input {
+	width: 300px;
+}
+
+td.item-input {
+	height: 30px;
+	valign: top;
+	text-align: center;
+}
+
+tr.btn {
+	height: 100px;
+	valign: middle;
+	text-align: center;
+}
+
+button.btn {
+	font-size: 16px;
+	width: 300px;
+	color: #000000;
+	border-color: #c0c0c0;
+	display: inline-block;
+	background: #86C2C0;
+	padding: .5em 2em;
+	margin-right: .5em;
+}
+
+button.btn:hover {
+	background-color: #5f9ea0;
+}

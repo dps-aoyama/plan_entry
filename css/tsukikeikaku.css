@@ -1,0 +1,53 @@
+/* エリア */
+div.area {
+	width: 1500px;
+	height: 250px;
+	background: #ffffff;
+	margin: 0px 0px 0px 40px;
+	box-shadow: 0 3px 4px 0 #c0c0c0;
+}
+
+/* エリアタイトル */
+div.area-title {
+	width: 1500px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 20px;
+	height: 50px;
+	background: #0D2B26;
+}
+
+label.area-title {
+	color: #ffffff;
+}
+
+/* ガス単価管理マスタ画面_検索条件テーブル */
+table.gas-search-area {
+	width: 710px;
+	margin: 40px 40px 50px 40px;
+}
+
+label.item-label {
+	font-size: 16px;
+}
+
+tr.item{
+	height: 60px;
+}
+
+/* イベントボタン */
+button.btn {
+	font-size: 16px;
+	width: 150px;
+	color: #000000;
+	border-color: #c0c0c0;
+	display: inline-block;
+	background: #86C2C0;
+	padding: .5em 2em;
+	margin-right: .5em;
+}
+
+button.btn:hover {
+	background-color: #5f9ea0;
+}

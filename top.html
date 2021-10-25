@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/body.css">
+<link rel="stylesheet" href="css/modal.css">
+<script src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<header class="menu">
+	<div class = "logo-area">
+	<a href="top.html"><img src="image/nicigas_logo.png" class="top_img"></a>
+	</div>
+	<ul class = "leftmenu">
+		<li><a href="eigyosho_betsu_search.html">営業所別年間計画</a></li>
+		<li><a href="tantosha_betsu_search.html">担当者別年間計画</a></li>
+		<li><a href="tsukikeikaku_search.html">月初計画</a></li>
+		<li><a href="yokugetsukeikaku_search.html">翌月以降計画</a></li>
+		<li><a href="#">マスタメンテナンス</a>
+			<ul class= "submenu">
+				<li><a href="lock.html">ロック管理</a></li>
+				<li><a href="gas_price.html">ガス仕入単価マスタ</a></li>
+				<li><a href="#">部マスタ</a></li>
+				<li><a href="#">ユーザ表示マスタ</a>
+			</ul>
+		</li>
+	</ul>
+	<ul class= "rightmenu">
+		<li>営業所名：○○○〇<br>担当者名：○○○〇</li>
+	</ul>    
+	<button class="logout-btn" onclick="LogoutCheck();">ログアウト</button>
+</header>
+<div class="modal" id="modal">
+	<h2>確認</h2>
+	<div class="modalContents">
+		<div class="logout_modal">
+			<div  class="logout_mes">
+				ログアウトします。よろしいですか？
+			</div>
+			<div>
+				<td class="modalBtn">
+					<button type="submit" id="modal-yes-btn" class="btn modalBtn modal-yes-btn" onclick="BtnEvent('yes');">は　い</button>
+					<button type="submit" id="modal-no-btn"   class="btn modalBtn"                    onclick="BtnEvent('cancel');"  >いいえ</button>
+				</td>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mask" id="mask"></div>
+<body>
+</body>

@@ -1,0 +1,40 @@
+body {
+background-color:#f5f5f5;
+}
+
+.download_icon{
+width: 30px;
+height: 33px;
+}
+.download_button{
+	position: absolute;
+	top:65px;
+	left:1750px;
+    background-color: #DDDDDD;
+}
+.update_button {
+	position: absolute;
+	top:65px;
+	left:1595px;
+  width: 130px;
+  height:40px;
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 8px;
+  background-color: #FF9872;
+}
+.buttons {
+  margin-right: 5px;
+}
+#ss {
+   border: 1px solid; 
+}
+.update_button:hover,.download_button:hover {
+    background-color: #ff6347;
+}
+.menu_name {
+  font-size: 24px;
+  background-color:#FFFFFF;
+  color: #000000;
+padding: 10px 10px 10px 20px;
+}

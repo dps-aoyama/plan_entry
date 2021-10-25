@@ -1,0 +1,87 @@
+/* 画面タイトル */
+.menu_name {
+	width: 1880px;
+	font-size: 24px;
+	background: #ffffff;
+	padding: 10px 10px 10px 20px;
+}
+
+/* メインエリア */
+.main-area {
+	margin:  20px 0px 0px 20px;
+}
+
+/* エリアタイトル */
+div.area-title {
+	border-left: solid 5px #285251;
+	font-size: 20px;
+	padding: 0px 0px 0px 10px;
+	margin:  0px 0px 20px 0px;
+}
+
+/* 検索エリアテーブル */
+table.lock-search-area {
+	width: 500px;
+	border-collapse: collapse;
+	height: 130px;
+}
+
+/* 検索条件エリア要素タイトル */
+th.lock-search-area {
+	width: 120px;
+	background: #0D2B26;
+	color: #ffffff;
+}
+
+/* 検索条件エリア要素 */
+td.lock-search-area {
+	width: 350px;
+	background: #ffffff;
+	padding: 0px 0px 0px 10px;
+}
+
+/* ロック画面－検索条件エリア要素プルダウン */
+select.lock-search-area {
+	width: 200px;
+}
+
+/* ロック画面－検索ボタン */
+button.lock-search-btn {
+	margin:  20px 0px 0px 350px;
+	font-size: 20px;
+    height: 50px;
+}
+
+/* ロック画面－検索結果テーブル */
+table.search-result {
+	border-collapse: collapse;
+}
+
+/* ロック画面－ロック＆ロック解除ボタン */
+div.lock-event-btn {
+	margin:  0px 0px 20px 662px;
+}
+
+/* ロック画面－検索結果エリア要素タイトル */
+th.search-result {
+	width: 200px;
+}
+
+th.search-result {
+	width: 200px;
+	background: #0D2B26;
+	color: #ffffff;
+}
+
+th.search-result-lock {
+	width: 160px !important;
+}
+
+td.search-result {
+	width: 200px;
+}
+
+td.search-result-lock {
+	width: 140px !important;
+}
+

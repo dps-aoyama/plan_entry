@@ -1,0 +1,48 @@
+.pager {
+    position:absolute;
+    top:410px;
+    left:180px;
+}
+
+.pager ul {
+    list-style: none;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+.pager ul li {
+    margin: 0 1px;
+    position: relative;
+    left: -50%;
+    float: left;
+}
+
+.pager ul li span,
+.pager ul li a {
+    display: block;
+    font-size: 16px;
+    padding: 0.6em 1em;
+    border-radius: 3px;
+    width:10px;
+}
+
+.pager ul li a {
+    background: #FFFFFF;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid;
+}
+
+
+/* added by myself */
+.pager ul li.active{
+    font-weight: bold;
+    background: #000000;
+    color:#FFFFFF;
+}
+
+.pager ul li.active a {
+    background: #000000;
+    color:#FFFFFF;
+}

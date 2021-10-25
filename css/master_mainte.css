@@ -1,0 +1,173 @@
+/* 画面タイトル */
+.menu_name {
+	width: 1880px;
+	font-size: 24px;
+	background: #ffffff;
+	padding: 10px 10px 10px 20px;
+}
+
+/* メインエリア */
+.main-area {
+	margin:  20px 0px 0px 20px;
+}
+
+/* エリアタイトル */
+div.area-title {
+	border-left: solid 5px #285251;
+	font-size: 20px;
+	padding: 0px 0px 0px 10px;
+	margin:  0px 0px 20px 0px;
+}
+
+/* ロック画面－検索エリアテーブル */
+table.lock-search-area {
+	width: 960px;
+	height: 130px;
+	border-collapse: collapse;
+}
+
+/* ガス単価マスタ画面－検索エリアテーブル */
+table.gas-search-area {
+	width: 760px;
+	height: 40px;
+	border-collapse: collapse;
+}
+
+/* ロック画面－検索条件エリア要素タイトル */
+th.lock-search-area {
+	width: 120px;
+	background: #0D2B26;
+	color: #ffffff;
+}
+
+/* ロック画面－検索条件エリア要素 */
+td.lock-search-area {
+	width: 350px;
+	background: #ffffff;
+	padding: 0px 0px 0px 10px;
+}
+
+/* ロック画面－検索条件エリア要素プルダウン */
+select.lock-search-area {
+	width: 200px;
+}
+
+/* ロック画面－検索ボタン */
+button.lock-search-btn {
+	margin:  20px 0px 0px 400px;
+}
+
+/* ロック画面－検索結果テーブル */
+table.search-result {
+	border-collapse: collapse;
+}
+
+/* ロック画面－イベントボタン */
+div.event-btn-lock {
+	margin:  0px 0px 20px 662px;
+}
+
+/* ガス仕入単価マスタメンテナンス画面－イベントボタン */
+div.event-btn-gas {
+	margin:  0px 0px 20px 337px;
+}
+
+/* ロック画面－検索結果エリア要素タイトル */
+th.search-result {
+	width: 200px;
+}
+
+th.search-result {
+	width: 200px;
+	background: #0D2B26;
+	color: #ffffff;
+}
+
+th.search-result-lock {
+	width: 160px !important;
+}
+
+td.search-result {
+	width: 200px;
+}
+
+td.search-result-lock {
+	width: 160px !important;
+}
+
+td.search-result2 {
+	width: 200px !important;
+}
+
+td.search-result-lock {
+	width: 160px !important;
+}
+
+td.num-field {
+	text-align: right;
+}
+
+/* 検索結果一覧 */
+thead.search-result-thead {
+	display: block;
+}
+
+tbody.search-result-tbody {
+	background: #ffffff;
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+tbody.search-result-tbody-lock {
+	width: 976px;
+}
+
+tbody.search-result-tbody-gas {
+	width: 813px;
+}
+
+/* イベントボタン */
+button.event-btn {
+	font-size: 16px;
+	width: 150px;
+	color: #000000;
+	border-color: #c0c0c0;
+	display: inline-block;
+	background: #ff8c00;
+	padding: .5em 2em;
+	margin-right: .5em;
+}
+
+button.event-btn:hover {
+	background-color: #ff6347;
+}
+
+/* ボタン非活性時 */
+button:disabled {
+	opacity: 0.5;
+}
+
+/* 検索結果選択時色変更 */
+.selected {
+	background:#c0c0c0;
+}
+
+
+.gas_price_modal{
+text-align:initial;
+}
+
+.title{
+padding-left: 100px
+}
+
+.gas_price_text_month{
+margin-left:128px;
+width:140px;
+}
+.gas_price_text{
+margin-left:64px;
+width:140px;
+text-align: right;
+}

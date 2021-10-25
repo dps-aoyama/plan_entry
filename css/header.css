@@ -1,0 +1,111 @@
+header{
+	position: relative;
+	width: 1912px;
+	background-color: #285251;
+	height: 50px;
+}
+.logo-area {
+	width:250px;
+	background-color: #FFFFFF;
+}
+.top_img{
+width:230px;
+}
+.leftmenu {
+    position: absolute;
+	left: 210px;
+	top:0px;
+	margin: 0;
+	justify-content: center;	
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    padding: 15px 15px;
+    display: block;
+    font-size: 1em;
+    letter-spacing: .2em;
+    color: #FFF;
+    border-right: solid 1px #FFF;
+    text-decoration:none;
+    transition: all  0s ease;
+    text-align: center;
+    width:185px;
+}
+
+ul li a:hover{
+    background-color: #efefef;
+    color: #444;
+    transition: .3s;
+}
+ 
+/* Submenu */
+ 
+.submenu {
+    position: absolute;
+    top: 50px;
+    left: 886px;
+}
+.submenu li{
+    display: block;
+}
+.submenu li a{
+    background-color: #efefef;
+    color: #444;
+}
+.submenu li a:hover{
+    background-color: #ddd;
+}
+
+.submenu{
+    display: none;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+
+.rightmenu {
+	position:  absolute; 
+    left: 1550px;
+    top:0px;
+    color: #FFF;
+    font-size: 14px;
+    margin-bottom: 1px;
+    margin-top:5px;
+}
+
+.logout-btn{
+  position:  absolute; 
+  color: #fff;
+  background-color: #DDDDDD;
+  top:3px;
+  right: 3px;
+  height: 45px;
+  width: 100px;
+  color: #000000;
+}
+
+.logout-btn:hover {
+    background-color: #efefef;
+    color: #444;
+}
+
+button.btn {
+	font-size: 16px;
+	width: 150px;
+	color: #000000;
+	border-color: #c0c0c0;
+	display: inline-block;
+	background: #86C2C0;
+	padding: .5em 2em;
+	margin-right: .5em;
+}
+
+button.btn:hover {
+	background-color: #5f9ea0;
+}
+
+.logout_mes{
+padding-bottom:20px;
+}
